@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/APP-Kotlin/PROJECT/Transe_Apk/Transe/app/src/main/res/layout/fragment_setting.xml" value="0.10840932117527863" />
+        <entry key="..\:/APP_Kotlin/PROJECT/Transe_Apk/Transeng/Transe-private/app/src/main/res/layout/setting_option.xml" value="0.5541666666666667" />
+        <entry key="..\:/APP_Kotlin/PROJECT/Transe_Apk/Transeng/Transe-private/app/src/main/res/layout/view_bin_icon.xml" value="0.1" />
+        <entry key="..\:/APP_Kotlin/PROJECT/Transe_Apk/Transeng/Transe-private/app/src/main/res/layout/view_icon.xml" value="0.1" />
+        <entry key="..\:/APP_Kotlin/PROJECT/Transe_Apk/Transeng/Transe-private/app/src/main/res/layout/view_trans.xml" value="0.33" />
       </map>
     </option>
   </component>

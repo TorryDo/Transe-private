@@ -40,7 +40,6 @@ class ProfileFragment : BaseFragment<ProfileViewModel, FragmentProfileBinding>()
         savedInstanceState: Bundle?
     ) {
         setup()
-
     }
 
     private fun setup() {
@@ -86,7 +85,7 @@ class ProfileFragment : BaseFragment<ProfileViewModel, FragmentProfileBinding>()
                     Log.d(TAG, "firebaseAuthWithGoogle:" + account.id)
                     firebaseAuthWithGoogle(account.idToken!!, requireActivity())
                 } catch (e: ApiException) {
-                    Log.w(TAG, "Google sign in failed", e)
+                    Log.e(TAG, "Google sign in failed", e)
                 }
 
             }
@@ -101,7 +100,7 @@ class ProfileFragment : BaseFragment<ProfileViewModel, FragmentProfileBinding>()
 //                    val user = auth.currentUser
                     popToBackStack()
                 } else {
-                    Log.w(TAG, "signInWithCredential:failure", task.exception)
+                    Log.e(TAG, "signInWithCredential:failure", task.exception)
                 }
             }
     }

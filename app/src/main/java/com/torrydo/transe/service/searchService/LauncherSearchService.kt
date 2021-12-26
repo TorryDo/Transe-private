@@ -19,7 +19,7 @@ import javax.inject.Named
 @Named(CONSTANT.serviceModule)
 class LauncherSearchService : Service() {
 
-    private val TAG = "_TAG_LauncherSearchService"
+    private val TAG = "_TAG_SearchService"
 
     @Inject
     @Named(CONSTANT.serviceWindowManager)
