@@ -1,5 +1,5 @@
-# Transe (DEPRECATED)
-- this project is deprecated
+# Transe (DISCONTINUED)
+- this project is discontinued
 
 ### Developer
 
